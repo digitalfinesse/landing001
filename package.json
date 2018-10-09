@@ -16,10 +16,13 @@
     "url": "https://github.com/digitalfinesse/landing001/issues"
   },
   "devDependencies": {
-    "browser-sync": "^2.24.7",
+    "browser-sync": "^2.26.0",
     "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
-    "gulp-pug": "^4.0.1"
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.2"
   },
   "homepage": "https://github.com/digitalfinesse/landing001#readme"
 }
