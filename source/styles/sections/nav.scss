@@ -18,5 +18,20 @@
     &--active {
       color: #de2b24;
     }
+
+    &:after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 5px;
+      height: 5px;
+      margin-left: 15px;
+      border-radius: 50%;
+      background: #424242;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
   }
 }
