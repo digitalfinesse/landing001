@@ -26,5 +26,9 @@
     "gulp.spritesmith": "^6.9.0",
     "rimraf": "^2.6.2"
   },
-  "homepage": "https://github.com/digitalfinesse/landing001#readme"
+  "homepage": "https://github.com/digitalfinesse/landing001#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  }
 }

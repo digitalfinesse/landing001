@@ -1,4 +1,14 @@
-body {
-  background: black;
-  color: white;
-}
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+
+@import "global/fonts";
+@import "global/variables";
+@import "global/common";
+@import "global/base";
+@import "global/sprite";
+@import "global/button";
+
+
+@import "sections/header";
+@import "sections/nav";

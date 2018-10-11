@@ -1,0 +1,21 @@
+header.header
+    .header__top
+        .container
+            .contacts
+                a.contact(href="tel:+79182321180")
+                    i.fa.fa-mobile.contact__icon(aria-hidden="true")
+                    span.contact__text +79182321180
+
+                a.contact(href="mailto:dizverst@gmail.com")
+                    i.fa.fa-envelope.contact__icon(aria-hidden="true")
+                    span.contact__text dizverst@gmail.com
+
+                a.facebook-icon(href="https://facebook.com" target="_blank")
+                    i.fa.fa-facebook(aria-hidden="true")
+    .container
+        .header__bottom
+            .logo: img.logo__picture(src="images/logo.png" alt="Logotype Picture")
+            include nav
+            a.button.button--red(href="#") Free Consultation
+
+    .header__bottom
