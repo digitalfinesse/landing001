@@ -20,8 +20,8 @@
       flex-direction: row-reverse;
       text-align: right;
 
-      .approch__text {
-        padding: 70px 90px;
+      @media (max-width: 985px) {
+        padding: 20px 25px;
       }
 
       .approch__step {
@@ -37,6 +37,16 @@
     max-height: 236px;
     display: inline-block;
     vertical-align: top;
+
+    @media (max-width: 985px) {
+      max-width: calc(340px / 1.5);
+      max-height: calc(236px / 1.5);
+    }
+
+    @media (max-width: 700px) {
+      margin: auto;
+      display: block;
+    }
   }
 
   &__picture {
@@ -50,7 +60,13 @@
     vertical-align: top;
     width: 64%;
     padding: 70px 70px 55px 90px;
-    font-size: 0.875rem
+    font-size: 0.875rem;
+
+    @media (max-width: 665px) {
+      //padding: 25px 20px;
+      width: 100%;
+      text-align: center;
+    }
   }
 
   &__step {
@@ -74,6 +90,10 @@
       font-size: 3rem;
       line-height: 1;
       color: #fff;
+    }
+    
+    @media (max-width: 985px) {
+      display: none;
     }
   }
 
